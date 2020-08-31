@@ -8,7 +8,7 @@ class Box {
       this.body = Bodies.rectangle(x, y, 70, 70, options);
       this.width = 70;
       this.height = 70;
-      this.image = loadImage("sprites/paper.png");
+      this.image = loadImage("paper.png");
       
       World.add(world, this.body);
     }
