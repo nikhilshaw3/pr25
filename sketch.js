@@ -41,7 +41,7 @@ ground = Bodies.rectangle(width/2, 610, 3000, 10 , {isStatic:true} );
 World.add(world, ground);
 
 ball = new Box(56,320,35,35,options,{isStatic:true});
-ball = addImage("ballimg")
+
 
 console.log(ground);
 
